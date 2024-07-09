@@ -1,8 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #B78D65;
-    --light: #F8F8F8;
-    --dark: #252525;
+    --primary: #7091E6;
+    --secondary:#8697C4 ;
+    --light: #ADBBDA;
+    --dark: #3D52A0;
 }
 
 h1,
@@ -39,6 +40,12 @@ h6,
 
 
 /*** Spinner ***/
+#spinner img[src*="ETECHNOLOGIES4.png"] {
+    width: 6%;
+    height: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -102,6 +109,13 @@ h6,
 
 
 /*** Navbar ***/
+.navbar-brand img.me-3 {
+    width: 11%;
+    height: auto;
+  }
+
+
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
