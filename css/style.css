@@ -265,7 +265,14 @@ h6,
 
 
 /*** Facts ***/
+/* use below for all icons in this section */
+#apiIcon {
+    height: 50%;
+    width: auto;
+}
+
 .fact-item .fact-icon {
+    /* was 120px x 120px */
     width: 120px;
     height: 120px;
     margin-top: -60px;

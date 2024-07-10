@@ -53,7 +53,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  scss....... study-->
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-
+<!-- need favicon on each page -->
 <!--  double header is coo..change all colors. this isnt me -->
 <!--  home, services, and pages,  just shows parts of home page-->
 <!--  contact andd appointment just shows form and map-->
