@@ -266,7 +266,7 @@ h6,
 
 /*** Facts ***/
 /* use below for all icons in this section */
-#apiIcon {
+#apiIcon, #oopIcon, #modelViewIcon, #jsIcon, #mongoIcon, #nodeIcon, #noSqlIcon, #sqlIcon, #reactIcon, #htmlIcon, #mendixIcon, #cssIcon {
     height: 50%;
     width: auto;
 }
@@ -374,7 +374,9 @@ h6,
 .service-item:hover .btn {
     width: 140px;
 }
-
+#photoIcon, #smIcon, #webIcon {
+    size: 5%;
+}
 
 /*** Project ***/
 .project .nav .nav-link {
