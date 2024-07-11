@@ -375,7 +375,8 @@ h6,
     width: 140px;
 }
 #photoIcon, #smIcon, #webIcon {
-    size: 5%;
+    width:  25% ;
+    height: auto;
 }
 
 /*** Project ***/
