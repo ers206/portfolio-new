@@ -358,6 +358,18 @@ h6,
 .service-item:hover * {
     color: #FFFFFF;
 }
+/* icons need to be white when hover  */
+.service-item:hover #webIcon {
+    filter: brightness(0) invert(1);
+  }
+
+  .service-item:hover #smIcon {
+    filter: brightness(0) invert(1);
+  }
+
+  .service-item:hover #photoIcon {
+    filter: brightness(0) invert(1);
+  }
 
 .service-item .btn {
     width: 40px;
@@ -377,6 +389,7 @@ h6,
 #photoIcon, #smIcon, #webIcon {
     width:  25% ;
     height: auto;
+    /* color: white; */
 }
 
 /*** Project ***/
