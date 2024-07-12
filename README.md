@@ -48,11 +48,12 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NOTES -->
 
 <!-- NEED TO DO -->
-<!--  might not need all the pages  -->
+<!--  might not need all the pages, need plan for what pages are needed  -->
+<!-- technologies page? right now in services -->
 <!--  use all my pics, make sure that is known on the site -->
 <!--  scss....... study-->
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
-
+<!-- convert images if necissary -->
 
 
 <!--  home, services, and pages,  just shows parts of home page-->
