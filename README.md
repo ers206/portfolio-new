@@ -54,7 +54,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  scss....... study-->
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 <!-- convert images if necissary -->
-
+<!-- boder on service images  -->
 
 <!--  home, services, and pages,  just shows parts of home page-->
 <!--  contact andd appointment just shows form and map-->
