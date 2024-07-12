@@ -53,8 +53,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  scss....... study-->
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-<!-- need favicon on each page -->
-<!--  double header is coo..change all colors. this isnt me -->
+
+
 <!--  home, services, and pages,  just shows parts of home page-->
 <!--  contact andd appointment just shows form and map-->
 <!--  not sure if I will use terms and privacy-->
@@ -64,13 +64,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!--  DONT THINK i need the team page maybe use it for something else-->
 <!--  loading page has spinning cirlce with icon in it, change to etech logo -->
-<!--  hover is still that bad brown color-->
-<!-- https://www.flaticon.com/search?word=sql -->
+
+
 <!--  -->
 
 <!-- SECTIONS -->
 
-<!--  use scrolling top for services -->
+
 <!--  our projects sections will be link to my projects-->
 <!--  not sure if i need team members section... what will i change it to?-->
 
