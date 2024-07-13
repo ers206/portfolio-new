@@ -37,7 +37,7 @@
 
 
 ## Website
-  
+eric-schweitzer.com
 
 ## contribution
 Eric Schweitzer at E TECHNOLOGIES LLC
@@ -76,6 +76,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  not sure if i need team members section... what will i change it to?-->
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
+<!-- changing index.html footer and header need to copy and paste to pages I use -->
 <!-- I changed facts section to technologies  -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
 <!-- changed root colors in scc and added secondary color -->

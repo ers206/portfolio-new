@@ -356,7 +356,7 @@ h6,
 }
 
 .service-item:hover .service-text {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(37, 37, 37, 0.7);
 }
 
 .service-item * {
@@ -398,6 +398,15 @@ h6,
     width:  25% ;
     height: auto;
     /* color: white; */
+}
+
+.service-text p {
+    color: black; 
+    transition: color 0.5s ease; 
+}
+
+.service-text:hover p {
+    color: white; 
 }
 
 /*** Project ***/
