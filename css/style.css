@@ -348,11 +348,13 @@ h6,
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    /* border: #3D52A0; */
 }
 
 .service-item .service-text {
     background: var(--light);
     transition: .5s;
+    /* border: #000000; */
 }
 
 .service-item:hover .service-text {
@@ -361,12 +363,17 @@ h6,
 
 .service-item * {
     transition: .5;
+    /* border: black; */
+}
+
+.service-text {
+    border:1px solid black;
 }
 
 .service-item:hover * {
     color: #FFFFFF;
 }
-/* icons need to be white when hover  */
+/* icons need to be white when hover do i still need these */
 .service-item:hover #webIcon {
     filter: brightness(0) invert(1);
   }
@@ -394,10 +401,10 @@ h6,
 .service-item:hover .btn {
     width: 140px;
 }
+
 #photoIcon, #smIcon, #webIcon {
     width:  25% ;
     height: auto;
-    /* color: white; */
 }
 
 .service-text p {

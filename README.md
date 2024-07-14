@@ -48,23 +48,23 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NOTES -->
 
 <!-- NEED TO DO -->
-<!--  might not need all the pages, need plan for what pages are needed  -->
-<!-- technologies page? right now in services -->
-<!--  use all my pics, make sure that is known on the site -->
+<!-- spinner smaller than images on some screens -->
+<!--  used wow on section on index.html change on pages -->
+<!--  change header and footer on pages that will be using  -->
+
 <!--  scss....... study-->
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 <!-- convert images if necissary -->
-<!-- boder on service images  -->
 
-<!--  home, services, and pages,  just shows parts of home page-->
-<!--  contact andd appointment just shows form and map-->
-<!--  not sure if I will use terms and privacy-->
-<!--  404 error page is nice -->
-<!--  need web dev images-->
+
+
+
+
+
+
 <!--  look into counterup, easing, tempusdominus, and waypoint all in lib folder-->
 
-<!--  DONT THINK i need the team page maybe use it for something else-->
-<!--  loading page has spinning cirlce with icon in it, change to etech logo -->
+
 
 
 <!--  -->
@@ -81,6 +81,29 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
 <!-- changed root colors in scc and added secondary color -->
 
+
+<!-- WOW ANIMATION  -->
+
+<!-- data-wow-duration: Change the animation duration
+data-wow-delay: Delay before the animation starts
+data-wow-offset: Distance to start the animation (related to the browser bottom)
+data-wow-iteration: Number of times the animation is repeated -->
+
+<!-- Fade: wow fade
+Slide: wow slide
+Bounce: wow bounce
+Rotate: wow rotate
+Zoom: wow zoom
+Flip: wow flip
+Swing: wow swing
+Pulse: wow pulse
+RubberBand: wow rubberBand
+Shake: wow shake
+Tada: wow tada
+Wobble: wow wobble
+Jello: wow jello
+BounceIn: wow bounceIn
+BounceOut: wow bounceOut -->
 
 
 <!-- <a href="https://www.flaticon.com/free-icons/sql" title="sql icons">Sql icons created by juicy_fish - Flaticon</a> -->
