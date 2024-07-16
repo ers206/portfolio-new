@@ -48,13 +48,21 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NOTES -->
 
 <!-- NEED TO DO -->
+
+<!-- add resume added link to google docs. might want to use dropbox it loooks like there is a free plan-->
+<!-- https://docs.google.com/document/d/1AOi6BgGAl8HNO5xbew_bpSUz0t-QJLAgqeDp45HgDdM/edit?usp=sharing  -->
+
 <!-- spinner smaller than images on some screens -->
-<!--  used wow on section on index.html change on pages -->
+
 <!--  change header and footer on pages that will be using  -->
 
+<!-- look into other tech for past present future section maybe not use the 2 overlaping images -->
+
 <!--  scss....... study-->
+
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
-<!-- convert images if necissary -->
+
+<!-- convert images if necissary https://squoosh.app/-->
 
 
 
@@ -62,7 +70,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 
 
-<!--  look into counterup, easing, tempusdominus, and waypoint all in lib folder-->
+
+<!--  look into counterup, easing, tempusdominus, and waypoint all in lib folder not using counter up and they are all JS libraries-->
 
 
 
@@ -75,7 +84,9 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  our projects sections will be link to my projects-->
 <!--  not sure if i need team members section... what will i change it to?-->
 
+
 <!-- THINGS DONE AND NEED TO REMEMBER -->
+<!--  -->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
 <!-- I changed facts section to technologies  -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
@@ -122,3 +133,7 @@ BounceOut: wow bounceOut -->
 <!-- <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
 <!--  <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
 <!-- <a href="https://www.freepik.com/search">Icon by Freepik</a> -->
+
+                    <a href="https://www.freepik.com/search">Icon by iconmas</a>  
+                    <a href="https://www.freepik.com/search">Icon by iconmas</a>
+                    <a href="https://www.freepik.com/search">Icon by iconmas</a>
