@@ -62,7 +62,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-<!-- convert images if necissary https://squoosh.app/-->
+<!-- convert images if necissary https://squoosh.app/ make copy of images and put in folder. then take all of those images and drop into site-->
 
 
 
