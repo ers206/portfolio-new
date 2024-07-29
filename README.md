@@ -49,12 +49,9 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- NEED TO DO -->
 
-<!-- add resume added link to google docs. might want to use dropbox it loooks like there is a free plan-->
-<!-- https://docs.google.com/document/d/1AOi6BgGAl8HNO5xbew_bpSUz0t-QJLAgqeDp45HgDdM/edit?usp=sharing  -->
 
 <!-- spinner smaller than images on some screens -->
 
-<!--  change header and footer on pages that will be using  -->
 
 <!-- look into other tech for past present future section maybe not use the 2 overlaping images -->
 
@@ -64,14 +61,14 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- convert images if necissary https://squoosh.app/ make copy of images and put in folder. then take all of those images and drop into site-->
 
+<!-- tempusdominus is for the date picker, counterup is for counting, neither are needed or my site -->
+
+<!-- convert images to webp  -->
 
 
 
 
 
-
-
-<!--  look into counterup, easing, tempusdominus, and waypoint all in lib folder not using counter up and they are all JS libraries-->
 
 
 
@@ -81,8 +78,6 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- SECTIONS -->
 
 
-<!--  our projects sections will be link to my projects-->
-<!--  not sure if i need team members section... what will i change it to?-->
 
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
@@ -91,7 +86,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- I changed facts section to technologies  -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
 <!-- changed root colors in scc and added secondary color -->
-
+<!-- Waypoints allows developers to trigger a function when a user scrolls to an element. For example, a developer can use waypoints to start an animation before a section scrolls fully into view. Waypoints are available for multiple DOM libraries, including jQuery 1.8+, Zepto 1.1+, and IE 9+. -->
 
 <!-- WOW ANIMATION  -->
 
