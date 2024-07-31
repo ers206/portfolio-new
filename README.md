@@ -50,10 +50,9 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NEED TO DO -->
 
 
-<!-- spinner smaller than images on some screens -->
 
 
-<!-- look into other tech for past present future section maybe not use the 2 overlaping images -->
+
 
 <!--  scss....... study-->
 
@@ -63,10 +62,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- tempusdominus is for the date picker, counterup is for counting, neither are needed or my site -->
 
-<!-- convert images to webp  -->
+<!-- convert images to webp  some icons need to be converted. ony 10 free per day-->
 
+<!-- delete all the shit the site is not using test comment out before deleting it  -->
 
+<!-- put header and footer in every page from index.html  -->
 
+<!-- fill out alts on images -->
 
 
 
@@ -75,8 +77,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!--  -->
 
-<!-- SECTIONS -->
-
+<!-- PAGES/ make sure header and footer are same as index.html -->
+<!-- 404 page done -->
+<!-- about page done except need webp icon-->
+<!-- contact page done make sure form works after paid -->
+<!-- home page needs webp icons and projects need work -->
+<!-- project page needs work discriptions of sites  -->
+<!-- terms and privacy done -->
 
 
 
