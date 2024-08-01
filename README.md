@@ -2,11 +2,11 @@
 
 ## Purpose
 
-
+The purpose of this portfolio is to showcase my skills, expertise, and experience as a web developer, highlighting my proficiency in creating visually appealing and functional websites. I am passionate about using my technical and creative skills to deliver unique and effective web solutions for businesses and individuals. This portfolio reflects my journey in web development, from my early projects to my most recent work, demonstrating my growth and commitment to excellence in this field.
 
 ## Description
 
-
+This website is built using a combination of modern web technologies, including HTML, CSS, SCSS, and JavaScript. Additionally, I've utilized several popular JavaScript libraries such as Owl Carousel for responsive sliders, WOW.js for scroll-based animations, Easing for smooth animations, and Waypoints for triggering actions on scroll. These technologies work together to create a dynamic and engaging user experience. I've also written custom CSS and SCSS to style and layout the content, ensuring a visually appealing design. By leveraging these technologies, I've created a fast, responsive, and interactive website that provides a great user experience.
 
 ## Built with
 
@@ -18,9 +18,9 @@
 * Animate.css
 * Wow animation
 * Owl Carousel
-
-<!-- not sure these are used/ havent checked yet -->
 * jQuery
+* Easing
+* Waypoints
 
 * Slit Slider
 * Fancybox 
@@ -50,25 +50,23 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NEED TO DO -->
 
 
+<!-- take out link to company site on top of index -->
 
-
-
+<!-- add to project section. this is my progression as you can see here -->
 
 <!--  scss....... study-->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-<!-- convert images if necissary https://squoosh.app/ make copy of images and put in folder. then take all of those images and drop into site-->
 
 <!-- tempusdominus is for the date picker, counterup is for counting, neither are needed or my site -->
 
-<!-- convert images to webp  some icons need to be converted. ony 10 free per day-->
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
 
-<!-- put header and footer in every page from index.html  -->
+<!-- put header and footer in every page from index.html make sure it works 1st -->
 
-<!-- fill out alts on images -->
+<!-- fill out alts on images Done make sure to check again*********************************-->
 
 
 
@@ -88,7 +86,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
-<!--  -->
+<!--  commented out counterup js and it look off top navbar-->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
 <!-- I changed facts section to technologies  -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
