@@ -41,13 +41,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 &copy; E TECHNOLOGIES LLC 2024
 
 
-<!-- NOTES -->
+
 
 <!-- NEED TO DO -->
 
+<!-- resize images -->
 
-
-
+<!-- put header and footer in every page from index.html make sure it works 1st -->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
@@ -55,9 +55,10 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- is tempusdominus needed -->
 
 
+
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
 
-<!-- put header and footer in every page from index.html make sure it works 1st -->
+
 
 <!-- fill out alts on images Done make sure to check again*********************************-->
 
