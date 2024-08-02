@@ -273,11 +273,11 @@ h6,
 }
 /* add page classes to add different images  */
 /* .page1-header {
-    background-image: url(../img/motorcycle.webp);
+    background-image: url(../img/motorcycle.jpg);
 }
 
 .page2-header {
-    background-image: url(../img/motorcycle.webp);
+    background-image: url(../img/motorcycle.jpg);
 } */
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -533,7 +533,7 @@ h6,
 
 
 /*** Testimonial ***/
-.testimonial-carousel {
+/* .testimonial-carousel {
     display: flex !important;
     flex-direction: column-reverse;
     max-width: 700px;
@@ -592,7 +592,7 @@ h6,
 
 .testimonial-carousel .owl-dots .owl-dot.active img {
     opacity: 1;
-}
+} */
 
 
 /*** Footer ***/

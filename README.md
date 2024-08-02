@@ -1,4 +1,4 @@
-# portfolio-new
+# Eric Schweitzer Portfolio
 
 ## Purpose
 
@@ -22,24 +22,20 @@ This website is built using a combination of modern web technologies, including 
 * Easing
 * Waypoints
 
-* Slit Slider
-* Fancybox 
 
+## Images
 
+![](/img/Screenshot%202024-08-02%20122550.webp)
+![](/img/Screenshot%202024-08-02%20122658.webp)
+![](/img/Screenshot%202024-08-02%20122730.webp)
+![](/img/Screenshot%202024-08-02%20122802.webp)
 
-## images
-
-![](/img)
-![]()
-![]()
-![]()
-![]()
 
 
 ## Website
 eric-schweitzer.com
 
-## contribution
+## Contribution
 Eric Schweitzer at E TECHNOLOGIES LLC
 
 &copy; E TECHNOLOGIES LLC 2024
@@ -50,16 +46,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- NEED TO DO -->
 
 
-<!-- take out link to company site on top of index -->
 
-<!-- add to project section. this is my progression as you can see here -->
 
-<!--  scss....... study-->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
 
-<!-- tempusdominus is for the date picker, counterup is for counting, neither are needed or my site -->
+<!-- is tempusdominus needed -->
 
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
@@ -68,27 +61,15 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- fill out alts on images Done make sure to check again*********************************-->
 
-
-
-
-
-
-<!--  -->
-
-<!-- PAGES/ make sure header and footer are same as index.html -->
-<!-- 404 page done -->
-<!-- about page done except need webp icon-->
 <!-- contact page done make sure form works after paid -->
-<!-- home page needs webp icons and projects need work -->
-<!-- project page needs work discriptions of sites  -->
-<!-- terms and privacy done -->
+
 
 
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
-<!--  commented out counterup js and it look off top navbar-->
+
+<!-- dont comment out libraries, when I did it took out key components -->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
-<!-- I changed facts section to technologies  -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
 <!-- changed root colors in scc and added secondary color -->
 <!-- Waypoints allows developers to trigger a function when a user scrolls to an element. For example, a developer can use waypoints to start an animation before a section scrolls fully into view. Waypoints are available for multiple DOM libraries, including jQuery 1.8+, Zepto 1.1+, and IE 9+. -->
@@ -117,24 +98,3 @@ BounceIn: wow bounceIn
 BounceOut: wow bounceOut -->
 
 
-<!-- <a href="https://www.flaticon.com/free-icons/sql" title="sql icons">Sql icons created by juicy_fish - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/api" title="api icons">Api icons created by Freepik - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/nosql" title="nosql icons">Nosql icons created by orvipixel - Flaticon</a> -->
-<!--  <a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by phatplus - Flaticon</a>-->
-<!-- <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/node-js" title="node js icons">Node js icons created by Freepik - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by edt.im - Flaticon</a> -->
-<!--  <a href="https://www.flaticon.com/free-icons/oriented" title="oriented icons">Oriented icons created by Smashicons - Flaticon</a>-->
-<!--  <a href="https://www.flaticon.com/free-icons/programming" title="programming icons">Programming icons created by Ary Prasetyo - Flaticon</a>-->
-<!--  <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Smartline - Flaticon</a>-->
-<!--  <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
-<!--  <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
-<!--  <a href="https://www.freepik.com/search">Icon by Freepik</a>  -->
-<!-- <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
-<!--  <a href="https://www.freepik.com/search">Icon by Freepik</a>-->
-<!-- <a href="https://www.freepik.com/search">Icon by Freepik</a> -->
-
-                    <a href="https://www.freepik.com/search">Icon by iconmas</a>  
-                    <a href="https://www.freepik.com/search">Icon by iconmas</a>
-                    <a href="https://www.freepik.com/search">Icon by iconmas</a>
-                    <a href="https://www.freepik.com/search">Icon by Puckung</a> 
