@@ -51,8 +51,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
+<!-- sqoosh, tinypng, resizepixel,(there are more ) all work with webp to shrink images. ill need to know what size to make them -->
 
-<!-- is tempusdominus needed -->
 
 
 
@@ -69,6 +69,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
 
+<!-- tempusdominus is commented out  -->
 <!-- dont comment out libraries, when I did it took out key components -->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
