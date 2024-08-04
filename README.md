@@ -45,26 +45,26 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- NEED TO DO -->
 
-<!-- resize images -->
+
 
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-<!-- sqoosh, tinypng, resizepixel,(there are more ) all work with webp to shrink images. ill need to know what size to make them -->
+<!-- terms and privacy on footer. not there on phone version -->
 
-
-
+<!-- email runs too long on small screen on contact page -->
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
 
-
+<!-- images on right block text on small screen -->
 
 <!-- fill out alts on images Done make sure to check again*********************************-->
 
 <!-- contact page done make sure form works after paid -->
 
-
+<!-- resize images -->
+<!-- sqoosh, tinypng, resizepixel,(there are more ) all work with webp to shrink images. ill need to know what size to make them -->
 
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
