@@ -45,7 +45,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- NEED TO DO -->
 
-
+<!-- take out divorce in about -->
 
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
