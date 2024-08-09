@@ -50,8 +50,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
-
-<!-- delete larger images -->
+<!-- contact page done make sure form works after paid -->
 
 <!-- email runs too long on small screen on contact page -->
 
@@ -61,10 +60,10 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- fill out alts on images Done make sure to check again*********************************-->
 
-<!-- contact page done make sure form works after paid -->
+<!-- footer on index has links to phone and email transfer to all pages -->
 
-<!-- resize images -->
-<!-- sqoosh, tinypng, resizepixel,(there are more ) all work with webp to shrink images. ill need to know what size to make them -->
+
+
 
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
