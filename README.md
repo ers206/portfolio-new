@@ -45,13 +45,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- NEED TO DO -->
 
-<!-- take out divorce in about -->
+
 
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
 <!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
 
-<!-- terms and privacy on footer. not there on phone version -->
+<!-- delete larger images -->
 
 <!-- email runs too long on small screen on contact page -->
 
