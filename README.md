@@ -68,6 +68,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- THINGS DONE AND NEED TO REMEMBER -->
 
+<!-- php -S localhost:8000  command to start server in terminal below-->
+<!-- test_mail.php finally worked I had to get password from google. giant pain in ass. will try to get it to work on site 8-15 -->
 <!-- tempusdominus is commented out  -->
 <!-- dont comment out libraries, when I did it took out key components -->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
@@ -98,4 +100,40 @@ Jello: wow jello
 BounceIn: wow bounceIn
 BounceOut: wow bounceOut -->
 
-
+<!-- contact form given after purchase  -->
+<!-- <div class="contact-form">
+    <div id="alertMessage"></div>
+    <form id="contactForm" novalidate="novalidate">
+        <div class="row">
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="email" class="form-control py-2" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="mobile" placeholder="Mobile" required="required" data-validation-required-message="Please enter your mobile number" pattern="^(?![-. ])[\d().+\- ]{6,14}\d$" data-validation-pattern-message="Not a valid mobile number" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12 control-group">
+                <textarea class="form-control" rows="4" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
+                    <span>Send Message</span>
+                    <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                </button>
+            </div>
+        </div>
+    </form>
+</div> -->
+<!-- 
+http://localhost:8000
+php -S localhost:8000 -->

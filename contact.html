@@ -31,6 +31,19 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- below from form files -->
+    <!-- <link rel="stylesheet" href="path/to/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="/css/prism.min.css">
+    
+    <style type="text/css">
+        #contactForm .help-block ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -171,7 +184,7 @@
                 </div>
                 <div class="col-lg-6 wow bounceIn" data-wow-delay="0.6s">
                     <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
+                    <!-- <form>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -201,13 +214,81 @@
                                 <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Contact End -->
+     <!-- check both forms but I think it will still work on one above after getting php server -->
+<div class="contact-form">
+    <div id="alertMessage"></div>
+    <!-- form from file sent wwhen paid -->
+    <form id="contactForm" novalidate="novalidate">
+        <div class="row">
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="email" class="form-control py-2" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="mobile" placeholder="Mobile" required="required" data-validation-required-message="Please enter your mobile number" pattern="^(?![-. ])[\d().+\- ]{6,14}\d$" data-validation-pattern-message="Not a valid mobile number" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12 control-group">
+                <textarea class="form-control" rows="4" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
+                    <span>Send Message</span>
+                    <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                </button>
+            </div>
+        </div>
+    </form>
 
+
+    <!-- <form id="contactForm" novalidate="novalidate">
+        <div class="row">
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="name" name="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="email" class="form-control py-2" id="email" name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="mobile" name="mobile" placeholder="Mobile" required="required" data-validation-required-message="Please enter your mobile number" pattern="^(?![-. ])[\d().+\- ]{6,14}\d$" data-validation-pattern-message="Not a valid mobile number" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-sm-6 control-group">
+                <input type="text" class="form-control py-2" id="subject" name="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12 control-group">
+                <textarea class="form-control" rows="4" id="message" name="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
+                    <span>Send Message</span>
+                    <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                </button>
+            </div>
+        </div>
+    </form>
+     -->
+
+</div>
 
     <!-- Google Map Start -->
     <!-- <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
@@ -300,6 +381,15 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Form Javascript -->
+    <script src="mailer/validation.form.js"></script>
+    <script src="mailer/contact.form.js"></script>
+    <script src="/js/jquery-3.7.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.js"></script>
+    <script src="/js/prism.min.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
