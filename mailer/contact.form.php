@@ -58,6 +58,7 @@ if ($useSMTP) {
 
 // Recipients info
 $mail->setFrom($email, $name);
+// $mail->setFrom('no-reply@eric-schweitzer.com', 'From My Site');
 $mail->addAddress($recipientEmail, $recipientName);
 $mail->addReplyTo($email, $name);
 // $mail->addCC('cc@example.com');
@@ -74,7 +75,7 @@ try {
     $mail->send();
     
     // Passing success message with "success" status
-    echo json_encode(array('status' => 'success', 'message' => 'Email has been sent successfully!'));
+    echo json_encode(array('status' => 'success', 'message' => 'Message has been sent successfully!'));
 } catch (Exception $e) {
     // Passing error message with "error" status
     echo json_encode(array('status' => 'error', 'message' => 'Email could not be sent. ' . $mail->ErrorInfo));

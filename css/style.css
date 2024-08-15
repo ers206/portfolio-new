@@ -195,6 +195,26 @@ h6,
         opacity: 1;
     }
 }
+/* **************************** */
+.link-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the div within its container */
+}
+
+.link-column a {
+    width: 50%;  /* Ensures two links per line */
+    text-align: center; /* Center the text within each link */
+    padding: 5px 0;  /* Add some spacing around the links */
+}
 
 
 /*** Header ***/
