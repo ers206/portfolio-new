@@ -6,7 +6,7 @@ The purpose of this portfolio is to showcase my skills, expertise, and experienc
 
 ## Description
 
-This website is built using a combination of modern web technologies, including HTML, CSS, SCSS, and JavaScript. Additionally, I've utilized several popular JavaScript libraries such as Owl Carousel for responsive sliders, WOW.js for scroll-based animations, Easing for smooth animations, and Waypoints for triggering actions on scroll. These technologies work together to create a dynamic and engaging user experience. I've also written custom CSS and SCSS to style and layout the content, ensuring a visually appealing design. By leveraging these technologies, I've created a fast, responsive, and interactive website that provides a great user experience.
+This website is built using a combination of modern web technologies, including HTML, CSS, SCSS, JavaScript, and PHP for handling forms. Additionally, I've utilized several popular JavaScript libraries such as Owl Carousel for responsive sliders, WOW.js for scroll-based animations, Easing for smooth animations, and Waypoints for triggering actions on scroll. These technologies work together to create a dynamic and engaging user experience. I've also written custom CSS and SCSS to style and layout the content, ensuring a visually appealing design. By leveraging these technologies, I've created a fast, responsive, and interactive website that provides a great user experience.
 
 ## Built with
 
@@ -21,7 +21,7 @@ This website is built using a combination of modern web technologies, including 
 * jQuery
 * Easing
 * Waypoints
-
+* PHP
 
 ## Images
 
@@ -45,20 +45,17 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- NEED TO DO -->
 
+<!-- small phones are 320px dont adjust for any smaller  -->
 
+<!--  maybe not make all form inputs a must-->
 
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
-<!--  read lecense txt... im not selling it so it should be fine and im going to change all of it $19 to delete bottom created by link in html -->
-<!-- contact page done make sure form works after paid -->
 
-<!-- email runs too long on small screen on contact page -->
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
 
-<!-- images on right block text on small screen -->
 
-<!-- fill out alts on images Done make sure to check again*********************************-->
 
 <!-- footer on index has links to phone and email transfer to all pages -->
 
@@ -69,8 +66,6 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- THINGS DONE AND NEED TO REMEMBER -->
 
 <!-- php -S localhost:8000  command to start server in terminal below-->
-<!--  -->
-<!-- add php in site description in projects and in readme -->
 <!-- test_mail.php finally worked I had to get password from google. giant pain in ass. will try to get it to work on site 8-15 -->
 <!-- tempusdominus is commented out  -->
 <!-- dont comment out libraries, when I did it took out key components -->
@@ -102,40 +97,7 @@ Jello: wow jello
 BounceIn: wow bounceIn
 BounceOut: wow bounceOut -->
 
-<!-- contact form given after purchase  -->
-<!-- <div class="contact-form">
-    <div id="alertMessage"></div>
-    <form id="contactForm" novalidate="novalidate">
-        <div class="row">
-            <div class="col-sm-6 control-group">
-                <input type="text" class="form-control py-2" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                <p class="help-block text-danger"></p>
-            </div>
-            <div class="col-sm-6 control-group">
-                <input type="email" class="form-control py-2" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                <p class="help-block text-danger"></p>
-            </div>
-            <div class="col-sm-6 control-group">
-                <input type="text" class="form-control py-2" id="mobile" placeholder="Mobile" required="required" data-validation-required-message="Please enter your mobile number" pattern="^(?![-. ])[\d().+\- ]{6,14}\d$" data-validation-pattern-message="Not a valid mobile number" />
-                <p class="help-block text-danger"></p>
-            </div>
-            <div class="col-sm-6 control-group">
-                <input type="text" class="form-control py-2" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                <p class="help-block text-danger"></p>
-            </div>
-            <div class="col-12 control-group">
-                <textarea class="form-control" rows="4" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                <p class="help-block text-danger"></p>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
-                    <span>Send Message</span>
-                    <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
-                </button>
-            </div>
-        </div>
-    </form>
-</div> -->
+
 <!-- 
 http://localhost:8000
 php -S localhost:8000 -->
