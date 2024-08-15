@@ -33,6 +33,16 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="/css/prism.min.css">
+    
+    <style type="text/css">
+        #contactForm .help-block ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -597,9 +607,9 @@
                 <h1 class="display-5 mb-4">If You Have Any Questions, Please Feel Free Contact Me</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6" >
                     <div class="d-flex flex-column justify-content-between h-100">
-                        <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
+                        <div class="bg-light d-flex align-items-center w-100 p-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-dark" style="width: 55px; height: 55px;">
                                 <i class="fa fa-map-marker-alt text-primary"></i>
                             </div>
@@ -608,7 +618,7 @@
                                 <a href="https://etechinnovations.com/"><h3 class="mb-0">etechinnovations.com</h3></a>
                             </div>
                         </div>
-                        <div class="bg-light d-flex align-items-center w-100 p-4 mb-4">
+                        <div class="bg-light d-flex align-items-center w-100 p-4 mb-4 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-dark" style="width: 55px; height: 55px;">
                                 <i class="fa fa-phone-alt text-primary"></i>
                             </div>
@@ -617,51 +627,55 @@
                                 <h3 class="mb-0">608 212 1243</h3>
                             </div>
                         </div>
-                        <div class="bg-light d-flex align-items-center w-100 p-4">
+                        <div class="bg-light d-flex align-items-center w-100 p-4 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-dark" style="width: 55px; height: 55px;">
                                 <i class="fa fa-envelope-open text-primary"></i>
                             </div>
-                            <!-- at 380px this the email is too long  -->
                             <div class="ms-4">
-                                <p class="mb-2">Mail Me</p>
+                                <p class="mb-2">E-Mail Me</p>
                                 <h3 class="mb-0">owner@etechinnovations.com</h3>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                     <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                    <div class="contact-form">
+                        <div id="alertMessage"></div>
+                        <!-- form from file sent wwhen paid -->
+                        <form id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control py-2" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="email" class="form-control py-2" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control py-2" id="mobile" placeholder="Mobile" required="required" data-validation-required-message="Please enter your mobile number" pattern="^(?![-. ])[\d().+\- ]{6,14}\d$" data-validation-pattern-message="Not a valid mobile number" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control py-2" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-12 control-group">
+                                    <textarea class="form-control" rows="4" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
+                                        <span>Send Message</span>
+                                        <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                                    </button>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+
+                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -753,6 +767,15 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Form Javascript -->
+    <script src="mailer/validation.form.js"></script>
+    <script src="mailer/contact.form.js"></script>
+    <script src="/js/jquery-3.7.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.js"></script>
+    <script src="/js/prism.min.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

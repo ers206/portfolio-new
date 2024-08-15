@@ -69,6 +69,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- THINGS DONE AND NEED TO REMEMBER -->
 
 <!-- php -S localhost:8000  command to start server in terminal below-->
+<!-- add php in site description in projects and in readme -->
 <!-- test_mail.php finally worked I had to get password from google. giant pain in ass. will try to get it to work on site 8-15 -->
 <!-- tempusdominus is commented out  -->
 <!-- dont comment out libraries, when I did it took out key components -->

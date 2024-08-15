@@ -40,7 +40,7 @@ $mail = new PHPMailer(true);
 
 // Set mailer to use SMTP or PHP's mail() function
 // If you use SMTP, it will be "true". Otherwise, it will be "false"
-$useSMTP = false;
+$useSMTP = true;
 
 if ($useSMTP) {
     // Server settings for SMTP
