@@ -47,17 +47,16 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- small phones are 320px dont adjust for any smaller  -->
 
-<!--  maybe not make all form inputs a must-->
+<!-- check all functionality then delete comments ******************-->
 
 <!-- put header and footer in every page from index.html make sure it works 1st -->
 
 
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
+<!-- tempusdominus is commented out. I copied file make sure i know where it is and delete this file needs admin approval to delete. s -->
 
 
-
-<!-- footer on index has links to phone and email transfer to all pages -->
 
 
 
@@ -67,7 +66,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- php -S localhost:8000  command to start server in terminal below-->
 <!-- test_mail.php finally worked I had to get password from google. giant pain in ass. will try to get it to work on site 8-15 -->
-<!-- tempusdominus is commented out  -->
+
 <!-- dont comment out libraries, when I did it took out key components -->
 <!-- changing index.html footer and header need to copy and paste to pages I use -->
 <!-- old color B78D65 changing to #7091E6 in bootstrap.min.css  -->
