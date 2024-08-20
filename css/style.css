@@ -6,10 +6,6 @@
     --dark: #3D52A0;
 }
 
-/* try this later on  */
-/* body {
-    cursor: url('img/icons/ETECHNOLOGIES4.png'), auto; 
-  } */
 
 h1,
 h2,
@@ -54,19 +50,7 @@ h6,
     height: 4rem;
   }
 
-
-  /* #spinner {
-    width: 6rem; 
-    height: 6rem; 
-  } */
   
-  /* #spinner img[src*="ETECHNOLOGIES4.png"] {
-    width: 100%; 
-    height: 100%; 
-    object-fit: contain; 
-  } */
-  
-
  #spinner {
     opacity: 0;
     visibility: hidden;
@@ -195,7 +179,7 @@ h6,
         opacity: 1;
     }
 }
-/* **************************** */
+
 .link-column {
     display: flex;
     flex-wrap: wrap;
@@ -206,14 +190,14 @@ h6,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 300px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the div within its container */
+    max-width: 300px; 
+    margin: 0 auto; 
 }
 
 .link-column a {
-    width: 50%;  /* Ensures two links per line */
-    text-align: center; /* Center the text within each link */
-    padding: 5px 0;  /* Add some spacing around the links */
+    width: 50%;  
+    text-align: center; 
+    padding: 5px 0;  
 }
 
 
@@ -286,19 +270,12 @@ h6,
 .header-carousel .owl-dots .owl-dot.active img {
     opacity: 1;
 }
-/* need to have seperate ones on different pages  */
+
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/AiComputer2.webp) center center no-repeat;
     background-size: cover;
 }
-/* add page classes to add different images  */
-/* .page1-header {
-    background-image: url(../img/motorcycle.jpg);
-}
 
-.page2-header {
-    background-image: url(../img/motorcycle.jpg);
-} */
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -314,15 +291,12 @@ h6,
 }
 
 
-/*** Facts ***/
-/* use below for all icons in this section */
 #apiIcon, #oopIcon, #modelViewIcon, #jsIcon, #mongoIcon, #nodeIcon, #noSqlIcon, #sqlIcon, #reactIcon, #htmlIcon, #mendixIcon, #cssIcon {
     height: 50%;
     width: auto;
 }
 
 .fact-item .fact-icon {
-    /* was 120px x 120px */
     width: 120px;
     height: 120px;
     margin-top: -60px;
@@ -395,13 +369,11 @@ h6,
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    /* border: #3D52A0; */
 }
 
 .service-item .service-text {
     background: var(--light);
     transition: .5s;
-    /* border: #000000; */
 }
 
 .service-item:hover .service-text {
@@ -420,7 +392,7 @@ h6,
 .service-item:hover * {
     color: #FFFFFF;
 }
-/* icons need to be white when hover do i still need these */
+
 .service-item:hover #webIcon {
     filter: brightness(0) invert(1);
   }
@@ -550,70 +522,6 @@ h6,
 .bootstrap-datetimepicker-widget table td.today::before {
     border-bottom-color: var(--primary);
 }
-
-
-/*** Testimonial ***/
-/* .testimonial-carousel {
-    display: flex !important;
-    flex-direction: column-reverse;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.testimonial-carousel .owl-dots {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.testimonial-carousel .owl-dots .owl-dot {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin: 0 5px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active {
-    width: 100px;
-    height: 100px;
-}
-
-.testimonial-carousel .owl-dots .owl-dot::after {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "\f10d";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: var(--primary);
-    background: #FFFFFF;
-    border-radius: 40px;
-    transition: .5s;
-    opacity: 0;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active::after {
-    opacity: 1;
-}
-
-.testimonial-carousel .owl-dots .owl-dot img {
-    opacity: .4;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active img {
-    opacity: 1;
-} */
-
 
 /*** Footer ***/
 .footer .btn.btn-link {
