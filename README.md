@@ -44,7 +44,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 
 <!-- NEED TO DO -->
-
+<!-- tempusodomus js commented out check then delete -->
+<!-- commented out team and appointment sections of css in style.css -->
 <!-- small phones are 320px dont adjust for any smaller  -->
 
 <!-- check all functionality then delete comments ******************-->
@@ -54,7 +55,6 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 
 <!-- delete all the shit the site is not using test comment out before deleting it  -->
-<!-- tempusdominus is commented out. I copied file make sure i know where it is and delete this file needs admin approval to delete. s -->
 
 
 
