@@ -41,10 +41,12 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 &copy; E TECHNOLOGIES LLC 2024
 
 
-
+<!-- 
+http://localhost:8000
+php -S localhost:8000 -->
 
 <!-- NEED TO DO -->
-<!-- tempusodomus js commented out check then delete -->
+<!-- tempusodomus js commented out check then delete0 -->
 <!-- commented out team and appointment sections of css in style.css -->
 <!-- small phones are 320px dont adjust for any smaller  -->
 
